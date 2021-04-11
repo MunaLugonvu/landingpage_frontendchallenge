@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"
-  
-  <title>Frontend Mentor | [Blogr]</title>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+
 </head>
+
 <body>
-  <header>
-    <a href="/"> <img src="images/logo.svg" alt="Blogr"/></a>
-  </header>
+  <header class= "header">
+  <nav class = "flexx flexx-jc-sb flexx-ai-c">
+    <a href="/" class="logo"> <img src="images/logo.png" alt="Blogr" /></a>
+    <a class = "header-menu"  href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <div class ="header__links">
+      <a href = "#">Product</a>
+      <a href = "#">Company</a>
+      <a href = "#">Connect</a>
+
+    </div>
+
+  </nav>
+
+</header>
   <!--
 
   
@@ -101,9 +114,10 @@
   LinkedIn
   -->
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Lugonvu Mayimuna Kizza</a>.
   </div>
-  <script src = "app/js/script.js"></script>
+  <script src="app/js/script.js"></script>
 </body>
+
 </html>

@@ -1,1 +1,65 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body a, body a:visited, body a:hover {
+  text-decoration: none;
+}
+
+.flexx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexx-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flexx-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flexx-ai- c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  background-color: #ff7a85;
+}
+
+.header nav {
+  padding: 25px;
+}
+
+.header-menu > span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+}
+
+.header-menu > span:not(:last-child) {
+  margin-bottom: 3px;
+}
+/*# sourceMappingURL=style.css.map */

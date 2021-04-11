@@ -1,0 +1,30 @@
+.header{
+     background-color: $Verylightred;
+    nav {
+        padding: 25px;
+    }
+    &__logo{
+
+    }
+    &-menu{ //mobile Menu
+        >span{
+            display: block;
+            width:25px;
+            height: 3px;
+            background-color: $White;
+
+
+            &:not(:last-child){
+                margin-bottom: 3px;
+            }
+    }
+}
+&__links{
+    a{
+        
+    }
+}
+
+
+
+}
